@@ -16,5 +16,16 @@ namespace PracricaTema7
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            string nombre, apellidos, telefono;
+
+            nombre = tNombre.Text;
+            apellidos = tApellidos.Text;
+            telefono = tTelefono.Text;
+
+            tListaSocios.Text += "Nombre: " + nombre + " " + apellidos + "  " + "Telefono: " + telefono + ", \n";
+        }
     }
 }
