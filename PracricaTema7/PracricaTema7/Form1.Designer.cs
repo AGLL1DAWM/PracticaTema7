@@ -30,7 +30,7 @@
         {
             this.tNombre = new System.Windows.Forms.TextBox();
             this.lbNombre = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbMovil = new System.Windows.Forms.Label();
             this.tTelefono = new System.Windows.Forms.TextBox();
             this.lbApellidos = new System.Windows.Forms.Label();
             this.tApellidos = new System.Windows.Forms.TextBox();
@@ -55,14 +55,14 @@
             this.lbNombre.TabIndex = 1;
             this.lbNombre.Text = "Nombre";
             // 
-            // label2
+            // lbMovil
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(527, 45);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Telefono";
+            this.lbMovil.AutoSize = true;
+            this.lbMovil.Location = new System.Drawing.Point(527, 45);
+            this.lbMovil.Name = "lbMovil";
+            this.lbMovil.Size = new System.Drawing.Size(32, 13);
+            this.lbMovil.TabIndex = 3;
+            this.lbMovil.Text = "Movil";
             // 
             // tTelefono
             // 
@@ -123,7 +123,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lbApellidos);
             this.Controls.Add(this.tApellidos);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lbMovil);
             this.Controls.Add(this.tTelefono);
             this.Controls.Add(this.lbNombre);
             this.Controls.Add(this.tNombre);
@@ -138,7 +138,7 @@
 
         private System.Windows.Forms.TextBox tNombre;
         private System.Windows.Forms.Label lbNombre;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbMovil;
         private System.Windows.Forms.TextBox tTelefono;
         private System.Windows.Forms.Label lbApellidos;
         private System.Windows.Forms.TextBox tApellidos;
